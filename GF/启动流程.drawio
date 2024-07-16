@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T08:39:13.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lOOXTo7HTlJCRqhDjfcW" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T08:39:32.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="68hoJzkws-Qgrp5BzuJY" version="24.6.5" type="github">
   <diagram name="更新启动流程" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="850" y="850" />
-              <mxPoint x="850" y="1010" />
+              <mxPoint x="850" y="1048" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -51,7 +51,7 @@
             <mxPoint x="1270" y="1000" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1300" y="850" />
-              <mxPoint x="1300" y="1010" />
+              <mxPoint x="1300" y="1048" />
             </Array>
           </mxGeometry>
         </mxCell>
