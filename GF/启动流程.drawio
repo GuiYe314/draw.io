@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T13:32:39.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-fQXFUi-7iPOn2FTFLgu" version="24.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-25T13:37:19.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZXjtRpehNhirinvdSaJ4" version="24.7.1" type="github" pages="4">
   <diagram name="更新启动流程" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="913" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -386,9 +386,11 @@
         <mxCell id="BJ2vYe3-oLa2izNm2RgZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BJ2vYe3-oLa2izNm2RgZ-20" target="BJ2vYe3-oLa2izNm2RgZ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BJ2vYe3-oLa2izNm2RgZ-23" value="ProcedureSplash" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="580" width="160" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="ProcedureSplash" link="data:page/id,WCaNbYDLLM141kG_wd3e" id="BJ2vYe3-oLa2izNm2RgZ-23">
+          <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="600" y="580" width="160" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="BJ2vYe3-oLa2izNm2RgZ-24" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BJ2vYe3-oLa2izNm2RgZ-23">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
@@ -406,11 +408,65 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="WCaNbYDLLM141kG_wd3e" name="根据语言加载资源变体">
+  <diagram id="WCaNbYDLLM141kG_wd3e" name="ProcedureSplash流程">
+    <mxGraphModel dx="988" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-1" value="ProcedureSplash" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="516" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-2" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-6" value="-&amp;nbsp;OnUpdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <UserObject label="ProcedureCheckVersion" link="data:page/id,nItNWU5GY4y7YcFobaMB" id="ib9KtOrbCOr8VJrX2f6p-7">
+          <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="660" width="160" height="86" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-8" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-7">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-7">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-10" value="-&amp;nbsp;OnUpdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ib9KtOrbCOr8VJrX2f6p-7">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ib9KtOrbCOr8VJrX2f6p-6" target="ib9KtOrbCOr8VJrX2f6p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ib9KtOrbCOr8VJrX2f6p-12" value="可更新模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ib9KtOrbCOr8VJrX2f6p-11">
+          <mxGeometry x="0.0985" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nItNWU5GY4y7YcFobaMB" name="ProcedureCheckVersion流程">
     <mxGraphModel dx="830" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--1" value="ProcedureCheckVersion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="516" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--2" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--4" value="-&amp;nbsp;OnUpdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
