@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T15:08:19.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xnul1a1DvN8xqWX0Ftz9" version="24.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-25T15:08:59.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qkPwv9rz4J8du7hJv79z" version="24.7.1" type="github" pages="4">
   <diagram name="更新启动流程" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="913" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -703,6 +703,21 @@
         </mxCell>
         <mxCell id="Ue7H_B0_PIyM9M2Cp8X--75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ue7H_B0_PIyM9M2Cp8X--64" target="Ue7H_B0_PIyM9M2Cp8X--72">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ue7H_B0_PIyM9M2Cp8X--76" target="Ue7H_B0_PIyM9M2Cp8X--77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1389" />
+              <mxPoint x="1100" y="1460" />
+              <mxPoint x="760" y="1460" />
+              <mxPoint x="760" y="1405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--79" value="完成请求回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ue7H_B0_PIyM9M2Cp8X--78">
+          <mxGeometry x="-0.0659" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
