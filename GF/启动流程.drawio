@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T14:30:56.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="e6TeL59RUWYVcvCToHjf" version="24.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-25T14:38:41.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0drrhiBIat3RnJkTEjh5" version="24.7.1" type="github" pages="4">
   <diagram name="更新启动流程" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="913" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -536,7 +536,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ue7H_B0_PIyM9M2Cp8X--23" value="TaskPool&amp;lt;WebRequestTask&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="920" width="240" height="164" as="geometry" />
+          <mxGeometry x="490" y="920" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Ue7H_B0_PIyM9M2Cp8X--24" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--23">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -555,6 +555,9 @@
         </mxCell>
         <mxCell id="Ue7H_B0_PIyM9M2Cp8X--33" value="+&amp;nbsp;ProcessWaitingTasks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--23">
           <mxGeometry y="138" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--59" value="+&amp;nbsp;AddAgent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--23">
+          <mxGeometry y="164" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ue7H_B0_PIyM9M2Cp8X--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ue7H_B0_PIyM9M2Cp8X--15" target="Ue7H_B0_PIyM9M2Cp8X--26">
           <mxGeometry relative="1" as="geometry" />
@@ -608,6 +611,44 @@
               <mxPoint x="20" y="779" />
               <mxPoint x="20" y="935" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--53" value="WebRequestManager.WebRequestAgent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1180" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--54" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--53">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--53">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--56" value="+&amp;nbsp;WebRequestAgent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ue7H_B0_PIyM9M2Cp8X--53">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ue7H_B0_PIyM9M2Cp8X--50" target="Ue7H_B0_PIyM9M2Cp8X--56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="935" />
+              <mxPoint x="270" y="1253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--58" value="请求代理的新实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ue7H_B0_PIyM9M2Cp8X--57">
+          <mxGeometry x="-0.2227" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ue7H_B0_PIyM9M2Cp8X--50" target="Ue7H_B0_PIyM9M2Cp8X--59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="935" />
+              <mxPoint x="270" y="1097" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ue7H_B0_PIyM9M2Cp8X--63" value="给任务池添加代理实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ue7H_B0_PIyM9M2Cp8X--62">
+          <mxGeometry x="0.4164" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
