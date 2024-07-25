@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T15:50:52.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cExWWi--t6UGB4daUt4w" version="24.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-25T16:08:16.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="rIT8j6g-RvggmV3RYKH_" version="24.7.1" type="github" pages="4">
   <diagram name="更新启动流程" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="913" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -451,7 +451,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nItNWU5GY4y7YcFobaMB" name="ProcedureCheckVersion流程">
-    <mxGraphModel dx="3037" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3629" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
